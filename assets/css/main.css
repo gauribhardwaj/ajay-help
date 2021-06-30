@@ -87,6 +87,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
 	line-height: 1;
+	scroll-behavior: smooth;
 }
 
 ol, ul {
@@ -3883,7 +3884,7 @@ input, select, textarea {
 		-webkit-transition: -webkit-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		-ms-transition: -ms-filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
 		transition: filter 0.35s ease, -webkit-filter 0.35s ease, opacity 0.375s ease-out;
-		padding-top: 3.25em;
+		/* padding-top: 3.25em; */
 	}
 
 		#wrapper.is-transitioning {
