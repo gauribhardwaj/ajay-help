@@ -53,6 +53,38 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+#header-container {
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	margin-bottom: 30px;
+}
+
+#pp-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 2;
+}
+
+#hi-container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-grow: 1;
+}
+
+#hi-container h1 {
+	margin: 0 !important;
+}
+
+#pp {
+	height: 30vh;
+	width: auto;
+	border-radius: 50%;
+}
+
 body {
 	line-height: 1;
 }
